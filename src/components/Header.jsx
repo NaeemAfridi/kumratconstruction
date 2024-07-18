@@ -2,7 +2,9 @@ const Header = () => {
   return (
     <header className="absolute top-0 left-0 w-full bg-transparent z-10 ">
       <nav className="flex justify-around items-center  py-4">
-        <div className="text-white text-xl font-bold">Logo</div>
+        <div className=" text-xl font-bold text-orange-500">
+          KumratConstruction
+        </div>
         <ul className="flex gap-10">
           <li>
             <a href="#home" className="text-white hover:text-gray-300">
