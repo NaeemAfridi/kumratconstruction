@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"; // Ensure you have react-router-dom ins
 
 const InfoSection = () => {
   return (
-    <section className="flex flex-col  md:flex-row items-start p-8 text-white bg-transparent">
+    <section className="flex flex-col  md:flex-row items-start p-4 md:p-8 text-white bg-transparent">
       <div className="md:w-1/2 w-full p-4 flex flex-col gap-4">
-        <h2 className="text-3xl md:text-4xl font-bold w-10/12">
+        <h2 className="text-3xl md:text-4xl font-bold md:w-10/12">
           We Are Committed To Build Better
         </h2>
         <Link to="/about" className="text-blue-500 hover:underline ">

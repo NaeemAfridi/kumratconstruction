@@ -3,8 +3,8 @@ import CountUp from "react-countup";
 const CounterSection = () => {
   return (
     <section className="py-12 ">
-      <div className="container mx-auto  px-12 flex flex-col items-center">
-        <h2 className="text-5xl font-bold mb-8 text-center w-1/2">
+      <div className="container mx-auto  md:px-12 flex flex-col items-center">
+        <h2 className="md:text-5xl text-3xl font-bold mb-8 text-center px-4 md:w-1/2">
           Build Better, On Time, On Budget, We Deliver
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 ">
