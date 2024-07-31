@@ -1,14 +1,18 @@
-import ContactSection from "./ContactSection";
+import ContactSection from "../../components/ContactSection";
 import CounterSection from "./CounterSection";
-import Hero from "./Hero";
-import InfoSection from "./InfoSection";
-import Testimonials from "./Testimonials";
+import HeroSlider from "./HeroSlider";
+import AboutSection from "../../components/AboutSection";
+import Testimonials from "../../components/Testimonials";
+import aboutInfoImg from "../../assets/images/aboutInfoImg.png";
 
 const Home = () => {
   return (
     <>
-      <Hero />
-      <InfoSection />
+      <HeroSlider />
+      <AboutSection
+        title="We Are Committed To Build Better"
+        image={aboutInfoImg}
+      />
       <Testimonials />
       <CounterSection />
       <ContactSection />

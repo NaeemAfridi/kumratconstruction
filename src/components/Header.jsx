@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="absolute top-0 left-0 w-full bg-transparent z-10">
+    <header className="absolute top-0 left-0 w-full px-8 bg-transparent z-10">
       <div className="md:hidden relative z-10">
         <button
           onClick={toggleMenu}
@@ -28,42 +29,50 @@ const Header = () => {
           isMenuOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
         }`}
       >
-        <div className="text-xl font-bold text-orange-500 text-center">
+        <Link to="/" className="text-xl font-bold text-orange-500 text-center">
           KumratConstruction
-        </div>
+        </Link>
 
         <ul className="md:flex-row flex items-center gap-2 mt-4 md:mt-0 md:gap-10 flex-col">
           <li>
-            <a
-              href="#home"
-              className="text-white hover:text-gray-300 block md:inline-block"
+            <Link
+              to="/"
+              className="text-white hover:text-orange-600 block md:inline-block"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#about"
-              className="text-white hover:text-gray-300 block md:inline-block"
+            <Link
+              to="/about"
+              className="text-white hover:text-orange-600 block md:inline-block"
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#services"
-              className="text-white hover:text-gray-300 block md:inline-block"
+            <Link
+              to="/gallery"
+              className="text-white hover:text-orange-600 block md:inline-block"
+            >
+              Gallery
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/services"
+              className="text-white hover:text-orange-600 block md:inline-block"
             >
               Services
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#contact"
-              className="text-white hover:text-gray-300 block md:inline-block"
+            <Link
+              to="/contact"
+              className="text-white hover:text-orange-600 block md:inline-block"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

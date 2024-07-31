@@ -3,23 +3,46 @@
 @tailwind utilities;
 
 body {
-  background-color: #000000;
+  background-color: #222;
   color: #fff;
 }
 
-.bg-hero-image-1 {
+.bg-slider-image-1 {
   background-image: url("./assets/images/hero1.jpg");
 }
 
-.bg-hero-image-2 {
+.bg-slider-image-2 {
   background-image: url("./assets/images/hero2.jpg");
 }
 
-.bg-hero-image-3 {
+.bg-slider-image-3 {
   background-image: url("./assets/images/hero3.jpg");
 }
 
 .testimonials {
   background-image: url("./assets/images/hero3.jpg");
+}
+
+.contact-hero {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    url("./assets/images/hero3.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+.services-hero {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    url("./assets/images/service2.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-hero {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    url("./assets/images/abouthero2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
