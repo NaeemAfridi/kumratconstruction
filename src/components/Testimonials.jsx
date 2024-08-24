@@ -1,7 +1,8 @@
 import "swiper/css";
 import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow } from "swiper/modules";
+import { EffectCoverflow, Pagination } from "swiper/modules";
 import user1 from "../assets/images/user1.png";
 import user2 from "../assets/images/user2.png";
 import user3 from "../assets/images/user3.png";
@@ -93,7 +94,9 @@ const Testimonials = () => {
         spaceBetween={30}
         slidesPerView={3}
         loop={true}
-        modules={[EffectCoverflow]}
+        dots={true}
+        pagination={{ clickable: true }} // Enable pagination
+        modules={[EffectCoverflow, Pagination]}
         effect="coverflow"
         breakpoints={{
           268: {
