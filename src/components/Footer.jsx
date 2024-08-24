@@ -8,13 +8,27 @@ const Footer = () => {
         <div className="space-y-4">
           <h2 className="text-xl font-bold text-center">About Us</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Odio massa est ultricies
-            bibendum ornare. Ultrices sed massa mauris leo leo enim quis
-            convallis. Ut convallis tortor amet quam. In ut mauris eu nibh vel.
+            Established in 1992, Kumrat Construction Pvt. Ltd. has built a
+            legacy of excellence in the construction industry. With over three
+            decades of experience, we have successfully delivered a wide range
+            of projects that include roads, bridges, canals, swimming pools, and
+            iconic skyscrapers.
           </p>
           <div className="icons flex items-center gap-5">
-            <FaFacebook className="text-2xl" />
-            <FaInstagram className="text-2xl" />
+            <a
+              href="https://www.facebook.com/share/p/d2LWwyTf8SExxffp/?mibextid=oFDknk"
+              target="blank"
+            >
+              <FaFacebook className="text-2xl" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/p/C39Yx8zIyTL/?igsh=dGk2eTFzZHlmbzIx"
+              target="blank"
+            >
+              <FaInstagram className="text-2xl" />
+            </a>
+
             <FaLinkedinIn className="text-2xl" />
             <FaSkype className="text-2xl" />
           </div>
@@ -23,10 +37,10 @@ const Footer = () => {
         <div className="space-y-4 flex items-center flex-col">
           <h2 className="text-xl font-bold">Head Office</h2>
           <ul className="flex flex-col gap-2 list-none">
-            <li>1234 Main Street</li>
-            <li> Anytown, USA 12345</li>
-            <li>Phone: (123) 456-7890</li>
-            <li>Email: info@company.com</li>
+            <li>Street25, G-6</li>
+            <li> Apara Market , Islamabad </li>
+            <li>Phone: +923465500003</li>
+            <li>Email: kumratconstructionpvtltd@gmail.com </li>
             <li>OfficeTime: 9AM to 6PM</li>
           </ul>
         </div>
@@ -34,15 +48,21 @@ const Footer = () => {
         <div className="space-y-4">
           <h2 className="text-xl font-bold text-center">Newsletter</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Id netus ante porttitor
-            imperdiet.
+            Receive monthly updates, expert insights, and exclusive content
+            directly in your inbox.
           </p>
-          <form className="flex flex-col">
+          <form className="flex items-center gap-2">
             <input
               type="email"
               placeholder="Email address"
-              className="p-2 mb-4 rounded border-none text-gray-800"
+              className="p-2 flex-1 outline-none rounded border-none text-gray-800"
             />
+            <button
+              type="submit"
+              className=" text-white font-bold py-2 px-4 rounded-lg hover:bg-orange-500 bg-orange-600 border-1 border border-gray-700"
+            >
+              Submit
+            </button>
           </form>
         </div>
       </div>

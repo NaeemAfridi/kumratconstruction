@@ -1,34 +1,41 @@
 import ServiceCard from "./ServiceCard";
-import service1 from "../../assets/images/service1.jfif";
-import service2 from "../../assets/images/service2.jfif";
-import service3 from "../../assets/images/service3.jfif";
-import service4 from "../../assets/images/service4.jfif";
+import service1 from "../../assets/images/road-service.jpg";
+import service2 from "../../assets/images/bridge-service.jpg";
+import service3 from "../../assets/images/canal-service.webp";
+import service4 from "../../assets/images/skyscraper-service.avif";
+import pool from "../../assets/images/pool-service.webp";
 import Hero from "../../components/Hero";
 
 const services = [
   {
     image: service1,
-    title: "Design-Build Services",
+    title: "Road Construction",
     description:
-      "Description for service one. Providing the best quality and service.",
+      " Expertise in constructing durable and efficient road networks that connect communities.",
   },
   {
     image: service2,
-    title: "Residential Construction",
+    title: "Bridge Construction",
     description:
-      "Description for service two. Dedicated to excellence in every project.",
+      " Delivering robust and innovative bridge designs that enhance transportation infrastructure.",
   },
   {
     image: service3,
-    title: "Commercial Construction",
+    title: "Canal Construction",
     description:
-      "Description for service three. Innovating and creating solutions.",
+      "Engineering sustainable water management solutions through canal construction.",
   },
   {
     image: service4,
-    title: "Industrial Construction",
+    title: "Skyscraper Construction",
     description:
-      "Description for service three. Innovating and creating solutions.",
+      "Building iconic skyscrapers that redefine urban skylines with modern architectural designs.",
+  },
+  {
+    image: pool,
+    title: "Swimming Pool Construction",
+    description:
+      "Creating luxurious and high-quality swimming pools for residential and commercial use.",
   },
   // Add more services as needed
 ];

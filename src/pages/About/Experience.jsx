@@ -5,13 +5,13 @@ const Experience = () => {
         We have 40+ years experience in Construction
       </h2>
       <p className="text-gray-400 text-center text-sm sm:text-base md:text-lg">
-        Lorem ipsum dolor sit amet consectetur.
+        we deliver trusted expertise and quality craftsmanship on every project.
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <button className="border border-gray-400 rounded-lg px-6 py-2 text-sm sm:text-base md:text-lg">
           +0123456789
         </button>
-        <button className="bg-orange-600 rounded-lg border-none px-6 py-2 text-sm sm:text-base md:text-lg">
+        <button className="bg-orange-600 hover:bg-orange-500 rounded-lg border-none px-6 py-2 font-bold text-sm sm:text-base md:text-lg">
           Contact Us
         </button>
       </div>

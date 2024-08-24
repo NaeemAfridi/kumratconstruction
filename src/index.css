@@ -4,23 +4,27 @@
 
 body {
   background-color: #222;
-  color: #fff;
+  color: #d2d2d2;
 }
 
 .bg-slider-image-1 {
   background-image: url("./assets/images/hero1.jpg");
+  background-repeat: no-repeat;
 }
 
 .bg-slider-image-2 {
   background-image: url("./assets/images/hero2.jpg");
+  background-repeat: no-repeat;
 }
 
 .bg-slider-image-3 {
   background-image: url("./assets/images/hero3.jpg");
+  background-repeat: no-repeat;
 }
 
 .testimonials {
   background-image: url("./assets/images/hero3.jpg");
+  background-repeat: no-repeat;
 }
 
 .contact-hero {
@@ -33,7 +37,7 @@ body {
 
 .services-hero {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
-    url("./assets/images/service2.jfif");
+    url("./assets/images/services-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

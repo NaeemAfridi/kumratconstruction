@@ -8,10 +8,9 @@ const VisionMission = () => {
             Our Vision
           </h2>
           <p className="font-medium text-sm sm:text-base md:text-lg text-center">
-            “To become the leading Engineering and Construction firm in South
-            India and eventually India, by consistently delivering projects of
-            highest quality standards while ensuring a strong commitment and
-            dedication to our clients.”
+            “To build infrastructure that inspires progress and to craft
+            structures that endure, with unwavering commitment to quality,
+            safety, and sustainability.”
           </p>
         </div>
 
@@ -21,10 +20,6 @@ const VisionMission = () => {
             Our Mission
           </h2>
           <ul className="list-disc text-sm sm:text-base md:text-lg px-4">
-            <li>
-              Over the next decade, become one of the key players in
-              transforming South India’s building infrastructure.
-            </li>
             <li>
               On-time completion of every project, delivered with the highest
               quality with mechanization where possible.
